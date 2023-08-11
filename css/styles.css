@@ -32,15 +32,10 @@ text-decoration: none;
     list-style-type: none;
 }
 
-.link:hover {
-    background-color: #404bbf;
-    }  
-
+.link:hover,
 .link:focus {
     background-color: #404bbf;
-}
-
-
+    }  
 .address{
     color: #434455;
     line-height: 1.5;
@@ -53,7 +48,8 @@ text-decoration: none;
     list-style-type: none;
 }
 
-.address-contakt:focus, hover{
+.address-contakt:focus, 
+.address-contakt:hover{
 background-color: #404bbf;
 }
 
