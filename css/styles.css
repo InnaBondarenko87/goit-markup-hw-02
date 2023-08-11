@@ -14,17 +14,15 @@ text-decoration: none;
 
 .logo{
     text-transform: uppercase;
+    color: #4D5AE5;
+    text-transform: uppercase;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.03;
+    line-height: 1.17;
+    font-weight: 700;
 }
 
-.addition {
-color:#4D5AE5;
-text-transform:uppercase;
-font-family: Raleway,sans-serif;
-font-size: 18px;
-letter-spacing: 0.03;
-line-height: 1.17;
-font-weight: 700;
-}
 .link{
     font-weight: 500;
     line-height: 1.5;
@@ -58,6 +56,7 @@ text-align: center;
 
 .title-button{
     background: var(--iris, #4D5AE5);
+    cursor: pointer;
     color: var(--white, #FFF);
     /* Button Text */
     font-size: 16px;
@@ -70,10 +69,10 @@ text-align: center;
 
 .title-button:hover {
 background-color: #404BBF;
-cursor: pointer;
+
 }
 
-.Heading2-title{
+.heading2-title{
 color: var(--navyblue, #2E2F42);
     text-align: center;
     /* Header 2 */
@@ -86,7 +85,7 @@ color: var(--navyblue, #2E2F42);
     text-transform: capitalize;
 }
 
-.Heading2-title-heading{
+.heading2-title-heading{
 color: var(--navyblue, #2E2F42);
     /* Header 3 */
     font-size: 20px;
@@ -111,7 +110,8 @@ color: var(--navyblue, #2E2F42);
 
 .team{
 
-    background-color: #FFFFFF
+    background-color: F4F4FD;
+
 }
 
 .team-title{
@@ -129,7 +129,7 @@ color: var(--navyblue, #2E2F42);
 }
 
 .team-image{
-  color: var(--navyblue, #2E2F42);    
+  background-color: #FFFFFF
   text-align: center; /* Header 3 */
   font-size: 20px;
   font-style: normal;
@@ -193,14 +193,4 @@ background:#2E2F42;
     /* 150% */
     letter-spacing: 0.32px;
 
-}
-
-.addition2 {
-    color: #4D5AE5;
-    text-transform: uppercase;
-    font-family: Raleway, sans-serif;
-    font-size: 18px;
-    letter-spacing: 0.03;
-    line-height: 1.17;
-    font-weight: 700;
 }
