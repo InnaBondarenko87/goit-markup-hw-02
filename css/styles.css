@@ -35,7 +35,16 @@ text-decoration: none;
 }
 .address{
     color: #434455;
+    font-style: norma;
+    line-height: 1.5;
+    letter-spacing: 0.02;
+    color: #434455;
+
 }
+.address:hover{
+color: #404bbf;
+}
+
 
 .title{
 background-color: #2E2F42;
@@ -69,7 +78,6 @@ text-align: center;
 
 .title-button:hover {
 background-color: #404BBF;
-
 }
 
 .heading2-title{
@@ -109,13 +117,11 @@ color: var(--navyblue, #2E2F42);
 }
 
 .team{
-
-    background-color: F4F4FD;
-
+ background-color:#F4F4FD;
 }
 
 .team-title{
-    color: var(--navyblue, #2E2F42);
+        color:#2E2F42;
         text-align: center;
         /* Header 2 */
         font-size: 36px;
@@ -193,4 +199,8 @@ background:#2E2F42;
     /* 150% */
     letter-spacing: 0.32px;
 
+}
+
+.studio{
+    color: #f4f4fd;
 }
