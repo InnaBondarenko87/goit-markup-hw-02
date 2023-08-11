@@ -23,7 +23,7 @@ text-decoration: none;
     font-weight: 700;
 }
 
-.link{
+.header{
     color:#2e2f42;
     font-weight: 500;
     line-height: 1.5;
@@ -32,15 +32,16 @@ text-decoration: none;
     list-style-type: none;
 }
 
-.link:hover,
-.link:focus {
-    background-color: #404bbf;
-    }  
 .address{
     color: #434455;
     line-height: 1.5;
     letter-spacing: 0.02;
     font-style: normal;
+}
+
+.header:hover,
+.header:focus{
+    background-color: #404bbf;
 }
 
 .address-contakt{
