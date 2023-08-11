@@ -33,7 +33,7 @@ text-decoration: none;
     letter-spacing: 0.02;
     counter-reset: #2e2f42;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: #2e2f42; 
 }
 
 .link:hover{
@@ -49,19 +49,18 @@ text-decoration: none;
     line-height: 1.5;
     letter-spacing: 0.02;
     font-style: normal;
-
 }
 
-.link-address{
+.address-link{
     letter-spacing: 0.02em;
     color: #434455;
 }
 
-.link-address:focus{
+.address-link:focus{
     color: #404bbf;
 }
 
-.link-address:hover{
+.address-link:hover{
     color: #404bbf;
 }
 
@@ -99,8 +98,11 @@ text-align: center;
 background-color:#404BBF;
 }
 
+.title-button:hover{
+    background-color: #404BBF;
+}
 
-.heading2-title{
+.heading-title{
 color: var(--navyblue, #2E2F42);
     text-align: center;
     /* Header 2 */
@@ -113,7 +115,7 @@ color: var(--navyblue, #2E2F42);
     text-transform: capitalize;
 }
 
-.heading2-title-heading{
+.heading-title-heading{
 color: var(--navyblue, #2E2F42);
     /* Header 3 */
     font-size: 20px;
