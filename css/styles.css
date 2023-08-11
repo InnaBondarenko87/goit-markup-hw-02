@@ -51,16 +51,16 @@ text-decoration: none;
     font-style: normal;
 }
 
-.address-link{
+.address-contakt{
     letter-spacing: 0.02em;
-    color: #434455;
+    color:#434455;
 }
 
-.address-link:focus{
+.address-contakt:focus{
     color: #404bbf;
 }
 
-.address-link:hover{
+.address-contakt:hover{
     color: #404bbf;
 }
 
