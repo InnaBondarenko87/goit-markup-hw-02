@@ -27,23 +27,22 @@ text-decoration: none;
     font-weight: 700;
 }
 
-.menu{
-    background-color:#2e2f42;
+.link{
+    color:#2e2f42;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02;
-    counter-reset: #2e2f42;
     letter-spacing: 0.02em;
-    
 }
 
-.menu:hover{
+.link:hover {
+    background-color: #404bbf;
+    }  
+
+.link:focus {
     background-color: #404bbf;
 }
 
-.menu:focus{
-    background-color: #404bbf;
-}
 
 .address{
     color: #434455;
@@ -54,15 +53,10 @@ text-decoration: none;
 
 .address-contakt{
     letter-spacing: 0.02em;
-    background-color:#434455;
 }
 
-.address-contakt:focus{
+.address-contakt:focus, hover{
 background-color: #404bbf;
-}
-
-.address-contakt:hover{
-    background-color: #404bbf;
 }
 
 .title{
