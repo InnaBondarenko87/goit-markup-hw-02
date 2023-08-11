@@ -3,10 +3,6 @@ body{
     color:#434455 ;
     background-color:#ffffff;
 }
-      
-ul,li{
-list-style-type: none;
-}
 
 a{
 text-decoration: none;
@@ -33,6 +29,7 @@ text-decoration: none;
     line-height: 1.5;
     letter-spacing: 0.02;
     letter-spacing: 0.02em;
+    list-style-type: none;
 }
 
 .link:hover {
@@ -53,6 +50,7 @@ text-decoration: none;
 
 .address-contakt{
     letter-spacing: 0.02em;
+    list-style-type: none;
 }
 
 .address-contakt:focus, hover{
@@ -121,6 +119,10 @@ color: var(--navyblue, #2E2F42);
     letter-spacing: 0.4px;
 }
 
+.heading-link {
+    list-style-type: none;
+}
+
 .paragraph{
     color: var(--slate, #434455);
         /* Body */
@@ -153,6 +155,7 @@ color: var(--navyblue, #2E2F42);
 
 .team-link{
 background-color: #FFFFFF;
+list-style-type: none;
 }
 
 .team-title-heading{
@@ -166,6 +169,10 @@ background-color: #FFFFFF;
         line-height: 24px;
         /* 120% */
         letter-spacing: 0.4px;
+}
+
+.portfolio-link{
+list-style-type: none;
 }
 
 .portfolio-title{
@@ -215,3 +222,14 @@ background:#2E2F42;
     color: #f4f4fd; 
 }
 
+.team-image {
+    background-color: #FFFFFF ;
+    text-align:center;
+    /* Header 3 */
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 120% */
+    letter-spacing: 0.4px;
+}
