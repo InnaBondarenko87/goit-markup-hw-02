@@ -8,6 +8,7 @@ a{
 text-decoration: none;
 }
 
+
 .web{
     color:#2e2f42;
 }
@@ -23,7 +24,7 @@ text-decoration: none;
     font-weight: 700;
 }
 
-.page-nav .link {
+.link {
     list-style-type: none;
     color:#2e2f42;
     font-weight: 500;
@@ -33,20 +34,17 @@ text-decoration: none;
 
 }
 
-.pege-nav li {
-list-style-type: none;
-}
-
-.link:hover,
-.link:focus {
+.nav-text .link:hover,
+.nav-text .link:focus {
 color: #404bbf;
 }
 
-.address{
+.address-text{
     font-style: normal;
 }
 
-.address li {
+.address-text li,
+.nav-text li {
 list-style-type: none;
 }
 
@@ -58,8 +56,8 @@ list-style-type: none;
     font-style: normal;
 }
 
-.address-contakt:focus, 
-.address-contakt:hover {
+.address-text .address-contakt:focus, 
+.address-text .address-contakt:hover {
    color: #404bbf;
 }
 
