@@ -22,6 +22,7 @@ text-decoration: none;
     line-height: 1.17;
     font-weight: 700;
 }
+
 .page-nav .link {
     list-style-type: none;
     color:#2e2f42;
@@ -32,17 +33,20 @@ text-decoration: none;
 
 }
 
-.pege-nav, a, li {
+.pege-nav li {
 list-style-type: none;
 }
 
 .link:hover,
 .link:focus {
-    background-color: #404bbf;
+color: #404bbf;
 }
 
-.address li{
-font-style: normal;
+.address{
+    font-style: normal;
+}
+
+.address li {
 list-style-type: none;
 }
 
@@ -51,12 +55,12 @@ list-style-type: none;
     line-height: 1.5;
     letter-spacing: 0.02em;
     list-style-type: none;
+    font-style: normal;
 }
 
-.address .address-contakt:focus, 
-.address .address-contakt:hover {
-    color: #434455;
-    background-color: #404bbf;
+.address-contakt:focus, 
+.address-contakt:hover {
+   color: #404bbf;
 }
 
 .title{
