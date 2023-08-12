@@ -36,24 +36,16 @@ text-decoration: none;
     background-color: #404bbf;
 }
 
-
-.address{
+.address .address-contakt {
     color: #434455;
     line-height: 1.5;
     letter-spacing: 0.02;
     font-style: normal;
-}
-.address-contakt{
-    letter-spacing: 0.02em;
     list-style-type: none;
 }
 
-.address-contakt-link{
-list-style-type: none;
-}
-
-.address-contakt:focus, 
-.address-contakt:hover{
+.address .address-contakt:focus, 
+.address .address-contakt:hover {
 background-color: #404bbf;
 }
 
